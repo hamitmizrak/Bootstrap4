@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- External Js -->
+    <script src="js/template.js"></script>
+
+</head>
+
+<body class="bg-dark">
+    <!-- start codes-->
+
+
+    <!-- bootstrap :breadcrumb-->
+    <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="#">Bread Crumb</a>
+        <a class="breadcrumb-item" href="#">Home</a>
+        <span class="breadcrumb-item active">Ürün</span>
+    </nav>
+
+    <section id="s_s_s" style="margin-top:2rem;">
+        <div class="alert alert-primary" role="alert">
+            <a href="#" class="alert-link">
+                <h3 class="text-center44 uppercase mt44">Sıklıkla Sorulan Sorular</h3>
+            </a>
+        </div>
+        <hr class="hr44">
+        <div class="container">
+            <!-- img-fluid:responsive resim -->
+            <div id="accordianId" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                    <div class="card-header" role="tab" id="section1HeaderId">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId"
+                                aria-expanded="true" aria-controls="section1ContentId">
+                                Section 1
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+                        <div class="card-body">
+                            Section 1 content
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div style="margin-top:5rem;" class="alert alert-primary" role="alert">
+        <a href="#" class="alert-link">
+            <h3 class="text-center44 uppercase mt44">Bootstrap</h3>
+        </a>
+    </div>
+    <section id="tooltip-9">
+        <div class="conttainer">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true"
+                title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+                Tooltip with HTML
+            </button>
+        </div>
+
+    </section>
+
+    <section id="b_list" style="margin-top:5rem; margin-bottom:5rem;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <ul class="list-group">
+                        <li class="list-group-item active">Active item</li>
+                        <li class="list-group-item">Item</li>
+                        <li class="list-group-item disabled">Disabled item</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li class="list-group-item active">Active item</li>
+                        <li class="list-group-item">Item</li>
+                        <li class="list-group-item disabled">Disabled item</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="b_table">
+        <!-- <div class="container-fluid"> -->
+        <div class="container">
+            <div class="row">
+                <!-- table-responsive -->
+                <table class="table table-dark table-striped table-bordered table-hover table-sm ">
+                    <thead>
+                        <tr class="bg-primary">
+                            <td>S.N</td>
+                            <td>Front-End</td>
+                            <td>Back-End</td>
+                            <td>Database</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td class="text-center" rowspan="2">Html5</td>
+                            <td>Java se</td>
+                            <td>Sql</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td colspan="2">Javaee</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>js</td>
+                            <td>Java me</td>
+                            <td>Mssql</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>&copy;</td>
+                            <td>Bütün hakları sakladır.</td>
+                            <td>&reg;</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="img-6">
+        <div class="container">
+            <!-- img-fluid:responsive resim -->
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <img class="  img-fluid img-thumbnail rounded-circle" src="image/desk-593327_1920.jpg" alt="">
+
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <form action="" method="get">
+        <div class="form-group">
+            <input type="text" class="form-control bg-dark text-white" placeholder="adınız soyadınız" autofocus="true"
+                required="true" id="adiniz" class="adiniz" />
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control bg-dark text-white" placeholder="emailiniz" required="true"
+                id="email" class="email" />
+        </div>
+        <div class="form-group">
+            <input type="tel" class="form-control bg-dark text-white" placeholder="telefonunuz" required="true"
+                id="email" class="email" />
+        </div>
+        <input type="reset" value="Temizle" class="btn btn-danger">
+        <input type="submit" value="Gönder" class="btn btn-primary">
+    </form>
+
+
+
+    <!-- finish codes -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
